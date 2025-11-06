@@ -13,6 +13,7 @@ const appRoutes: Routes = [
     { path: "cine", component: CineComponent },
     { path: "musica", component: MusicaComponent },
     {path: "doble", component: NumeroDobleComponent},
+    {path: "doble/:numero", component: NumeroDobleComponent},
     { path: "**", component: NotFoundComponent}
 ]
 
