@@ -1,0 +1,9 @@
+<div>
+    <ul id="menu">
+        @for(num of numeros; track num; let i = $index){
+            <li>
+                <a [routerLink]="['/tablarouting', num]">Tabla del {{num}}</a>
+            </li>
+        }
+    </ul>
+</div>
